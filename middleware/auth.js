@@ -2,27 +2,20 @@ const jwt = require("jsonwebtoken");
 const { SECRET_KEY } = require("../utils/config");
 
 const auth = {
-  verifyLogin: async (request, response, next) => {
-    const authHeader = request.headers.authorization;
+  verifyLogin: async (req, res, next) => {
+    const token = req.headers.authorization?.split(" ")[1]; 
 
-    // Validate the Authorization header
-    if (!authHeader || !authHeader.startsWith("Bearer ")) {
-      return response.status(401).json({ message: "Access denied" });
+    if (!token) {
+      return res.status(401).json({ message: "Access denied" });
     }
-
-    // Extract the token
-    const token = authHeader.split(" ")[1];
 
     try {
-      // Verify the token
-      const verified = jwt.verify(token, SECRET_KEY);
-      request.userId = verified.id; // Attach user ID to the request
+      const verified = jwt.verify(token, JWT_SECRET); 
+      req.userId = verified.id; 
+      next(); 
     } catch (error) {
-      // Handle invalid token
-      return response.status(400).json({ message: "Invalid token" });
+      return res.status(400).json({ message: "Invalid token" });
     }
-
-    next(); // Proceed to the next middleware or route handler
   },
 };
 
