@@ -41,15 +41,23 @@ To run this project, you will need the following dependencies:
 2. Install dependencies:
     ```bash
     cd AuthBT11
-    npm init -y
-    npm install body-parser
-    npm install morgan
-    npm install express
-    npm install -D nodemon
-    npm install mongoose
-    npm install dotenv
-    npm install bcrypt
-    npm install jsonwebtoken
+npm init -y
+    
+ npm install body-parser
+ 
+ npm install morgan
+ 
+ npm install express
+ 
+ npm install -D nodemon
+ 
+ npm install mongoose
+ 
+ npm install dotenv
+ 
+ npm install bcrypt
+ 
+ npm install jsonwebtoken
     ```
 
 3. Set up environment variables:
