@@ -5,11 +5,11 @@ const { MONGODB_URI, PORT } = require("./utils/config");
 mongoose
   .connect(MONGODB_URI)
   .then(() => {
-    console.log("connected to the database");
+    console.log("Connected to the database");
     app.listen(PORT, () => {
-      console.log("server running on http://127.0.0.1:5001");
+      console.log(`Server running on http://127.0.0.1:${PORT}`);
     });
   })
   .catch((error) => {
-    console.log("failed to connect database");
+    console.error("Failed to connect to the database:", error.message);
   });

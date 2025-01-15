@@ -1,5 +1,5 @@
-const ErrorRoute = (request, response, next) => {
-  response.json({ message: "route not found" });
-  next();
+const ErrorRoute = (request, response) => {
+  response.status(404).json({ message: "Route not found" });
 };
+
 module.exports = ErrorRoute;
