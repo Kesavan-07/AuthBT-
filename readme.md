@@ -15,30 +15,21 @@ To run this project, you will need the following dependencies:
 - dotenv
 
 ## Screenshots
+   <img width="1470" alt="Login Screen" src="https://github.com/user-attachments/assets/c666a293-75bf-4eb2-a071-45778ed529ec" />
 
-1. **Login Screen**
-    <img width="1470" alt="Login Screen" src="https://github.com/user-attachments/assets/c666a293-75bf-4eb2-a071-45778ed529ec" />
+<img width="1470" alt="Registration Screen" src="https://github.com/user-attachments/assets/2d15a8a5-91a0-4de6-93fb-721d783377c8" />
 
-2. **Registration Screen**
-    <img width="1470" alt="Registration Screen" src="https://github.com/user-attachments/assets/2d15a8a5-91a0-4de6-93fb-721d783377c8" />
+ <img width="1470" alt="Dashboard" src="https://github.com/user-attachments/assets/61264ba9-5476-4a92-8786-b442a937cdd9" />
 
-3. **Dashboard**
-    <img width="1470" alt="Dashboard" src="https://github.com/user-attachments/assets/61264ba9-5476-4a92-8786-b442a937cdd9" />
+<img width="1470" alt="Bluetooth Device List" src="https://github.com/user-attachments/assets/8542aa86-f8c4-45c7-b352-2de7527d738b" />
 
-4. **Bluetooth Device List**
-    <img width="1470" alt="Bluetooth Device List" src="https://github.com/user-attachments/assets/8542aa86-f8c4-45c7-b352-2de7527d738b" />
+<img width="1470" alt="Device Connection Screen" src="https://github.com/user-attachments/assets/9e665c91-257a-4a61-8bb7-1955ace7171a" />
 
-5. **Device Connection Screen**
-    <img width="1470" alt="Device Connection Screen" src="https://github.com/user-attachments/assets/9e665c91-257a-4a61-8bb7-1955ace7171a" />
+<img width="1470" alt="Authentication Success" src="https://github.com/user-attachments/assets/71c8f236-af9e-4263-8f73-3fa9136e1586" />
 
-6. **Authentication Success**
-    <img width="1470" alt="Authentication Success" src="https://github.com/user-attachments/assets/71c8f236-af9e-4263-8f73-3fa9136e1586" />
-
-7. **Error Screen**
-    <img width="1470" alt="Error Screen" src="https://github.com/user-attachments/assets/c44ffc26-67df-48cf-a831-6c984f3c1545" />
-
-8. **Settings Screen**
-    <img width="1470" alt="Settings Screen" src="https://github.com/user-attachments/assets/60c6df2a-6f1f-4877-a1c7-9c6d315b5afa" />
+ <img width="1470" alt="Error Screen" src="https://github.com/user-attachments/assets/c44ffc26-67df-48cf-a831-6c984f3c1545" />
+ 
+<img width="1470" alt="Settings Screen" src="https://github.com/user-attachments/assets/60c6df2a-6f1f-4877-a1c7-9c6d315b5afa" />
 
 ## How to Run
 
