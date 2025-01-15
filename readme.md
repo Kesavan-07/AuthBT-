@@ -38,27 +38,18 @@ To run this project, you will need the following dependencies:
     git clone https://github.com/yourusername/AuthBT11.git
     ```
 
-2. Install dependencies:
+2.  Install dependencies:
     ```bash
     cd AuthBT11
-npm init -y
-    
- npm install body-parser
- 
- npm install morgan
- 
- npm install express
- 
- npm install -D nodemon
- 
- npm install mongoose
- 
- npm install dotenv
- 
- npm install bcrypt
- 
- npm install jsonwebtoken
-    ```
+    npm init -y
+    npm install body-parser
+    npm install morgan
+    npm install express
+    npm install -D nodemon
+    npm install mongoose
+    npm install dotenv
+    npm install bcrypt
+    npm install jsonwebtoken
 
 3. Set up environment variables:
     Create a `.env` file in the root directory and add the necessary environment variables.
